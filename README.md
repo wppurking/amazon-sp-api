@@ -27,3 +27,9 @@ amazon sp api java sdk
 1. sellersApiTest写了个测试调用类，可参考
 1. 所有md文档，包括api文档及models文档都在docs文件目录下
 1. 需要将东西添加到私有或者共有的 maven 仓库或者利用 [github](https://github.com/wppurking/maven-repos) 来做
+
+## 构建
+构建需要的 jar 与 sources
+* jar: ./mvnw package
+* sources: ./mvnw source:jar
+
